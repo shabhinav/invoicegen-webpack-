@@ -1,0 +1,130 @@
+.login {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80")
+    no-repeat center;
+  background-size: cover;
+}
+
+.loginpage_conatainer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 30px;
+  width: 110%;
+  border-radius: 5px;
+}
+
+.loginpage_heading {
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.login_button {
+  width: 100%;
+  margin-top: 20px;
+  button {
+    padding: 10px 0px;
+    width: 100% !important;
+    font-weight: 900;
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+}
+
+.login_type {
+  color: black;
+  text-align: left;
+  margin-top: 10px;
+  p {
+    span {
+      font-weight: 900;
+      color: white;
+      &:hover {
+        // border-bottom: 1px solid white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+h6 {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  color: white;
+  margin-top: 10px !important;
+}
+
+h6:before,
+h6:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid lightgray;
+  margin: auto;
+}
+
+.login_img {
+  width: 120px !important;
+  height: 120px !important;
+  margin-bottom: 10px;
+  path {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.btn-outline-danger {
+  background-color: transparent !important;
+  &:hover {
+    color: #dc3545 !important;
+  }
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+#filled-adornment-password {
+  border-radius: 5px !important;
+}
+
+.outlined-basic {
+  width: 100%;
+  color: white !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: lightgray !important;
+}
+
+.MuiFilledInput-input {
+  padding: 20px 12px 12px !important;
+  // background-color: #333333 !important;
+  border: none;
+  color: white !important;
+}
+
+.MuiFormLabel-root {
+  color: lightgray !important;
+}
+
+.MuiFilledInput-underline::before {
+  border: none !important;
+}
+
+.MuiFilledInput-underline::after {
+  border: none !important;
+}
+
+.MuiFormControl-root {
+  background-color: #333333 !important;
+}
+
+.MuiInputAdornment-positionEnd {
+  margin-right: 0px;
+}
+
+.MuiInputAdornment-positionStart {
+  margin-right: 0px;
+}

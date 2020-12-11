@@ -1,0 +1,48 @@
+.navbar1 {
+  padding: 0px !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  top: 0 !important;
+}
+
+.navbar_left {
+  background-image: url("//www.gstatic.com/mobilesdk/190805_mobilesdk/woman-at-desktop@2x.png");
+  padding-bottom: 350px;
+  background-size: cover;
+  width: 100%;
+  top: 0em;
+}
+
+.navbar_right {
+  background-image: url("//www.gstatic.com/mobilesdk/190805_mobilesdk/man-at-desktop@2x.png");
+  padding-bottom: 350px !important;
+  background-size: cover;
+  width: 100%;
+}
+
+.navbar_brand {
+  color: white;
+  top: 0;
+}
+
+.dropdown-toggle {
+  content: none !important;
+  padding: 5px;
+}
+
+.dropdown-menu {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.MuiAvatar-root {
+  display: inline-block !important;
+}

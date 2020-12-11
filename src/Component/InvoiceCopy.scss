@@ -1,0 +1,32 @@
+.invoiceCopy_container {
+  width: 60%;
+  margin: auto;
+  height: 100vh;
+  border-top: 5px solid black;
+}
+
+.invoiceCopy_header {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.invoiceCopy {
+  p {
+    margin: 0px;
+  }
+}
+
+.invoice_total {
+  text-align: right !important;
+  p {
+    padding-right: 15px;
+    span {
+      text-align: left;
+    }
+  }
+}
+
+.preview {
+  margin-left: 40%;
+  margin-right: 5px;
+}

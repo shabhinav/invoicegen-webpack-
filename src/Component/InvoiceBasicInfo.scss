@@ -1,0 +1,87 @@
+@mixin itemstyling {
+  display: grid;
+  grid-template-columns: 5% 40% 10% 10% 10% 10% 10% 1%;
+  grid-gap: 4px;
+}
+
+.invoicebasicinfo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  //   width: 60%;
+}
+
+.userInfopage {
+  width: 60% !important;
+  height: 100%;
+  border-radius: 5px;
+  border-top: 5px solid black;
+}
+
+.invoiceheading {
+  text-align: left;
+  font-weight: bolder;
+  padding: 25px 0px 0px;
+  margin-left: 50px !important;
+  font-weight: 100;
+}
+
+.invoiceDetails {
+  margin-top: 20px;
+  text-align: left;
+  display: flex;
+  span {
+    flex: 0.5;
+  }
+}
+
+.inputlabels {
+  text-align: left;
+}
+
+.inputbox {
+  text-align: left;
+  .MuiFormControl-root {
+    background-color: white !important;
+    width: 100% !important;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.invoiceitems_heading {
+  @include itemstyling;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2px 0px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.invoiceitem {
+  @include itemstyling;
+  ::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+}
+
+.addnewItem {
+  text-align: left;
+}
+
+.remove_btn {
+  span:nth-child(1) {
+    display: none !important;
+  }
+}
+
+.invoice_footer {
+  div {
+    flex: 0.5;
+  }
+  display: flex;
+}
